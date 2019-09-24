@@ -29,10 +29,10 @@
         this.setdiem = function (value) {
         this.diem = value
     };
-        this.getxephang = function () {
+        this.getxeploai = function () {
         return this.xeploai
     };
-        this.setxephang = function (value) {
+        this.setxeploai= function (value) {
         this.xeploai = value
     };
 
@@ -91,7 +91,7 @@
     ThemSinhVienNew.setlop(lop);
     ThemSinhVienNew.setgioitinh(gioitinh);
     ThemSinhVienNew.setdiem(diem);
-    ThemSinhVienNew.setxephang(xeploai);
+    ThemSinhVienNew.setxeploai(xeploai);
     hienthiSinhvien();
     }
 
